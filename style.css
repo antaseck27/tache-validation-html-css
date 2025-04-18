@@ -218,39 +218,111 @@ i{
     font-size: 20px;
 }
 .group3{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
 }
-.group3 .top3{
-    width: 300px;
-    height: 200px;
+.group3 .tof3{
+    width: 400px;
+    height: 300px;
+   
 
 }
-.group3 .top3 img{
-    width: 1000%;
+.group3 .tof3 img{
+    width: 100%;
     height: 100%;
     border-radius: 30PX;
-    border: solid red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
 .group3 .tof4{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 
 }
 .group3 .tof4 img{
-    width: 100%;
-    height: 100%;
+     width: 100%;
+    height: 100%; 
     border-radius: 30PX;
 }
 
 .group3 .tof5{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 
 }
 .group3 .tof5 img{
-    width: 100%;
-    height: 100%;
+     width: 100%;
+    height: 100%; 
     border-radius: 30PX;
+}
+
+.group3 img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #f8f9fa;
+}
+.how{
+    background-image: url(image/tof2.jpeg);
+    background-color: rgba(255, 0, 0, 0.4);
+    background-color: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);;
+    height: 800px;
+    padding: 100px;
+    color: white;
+   
+}
+.how h4{
+    font-size: 30px;
+}
+.how p{
+    font-size: 20px;
+}
+.how h1{
+    font-size: 45px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.but button:nth-child(2){
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    color: #80d0c7;
+    border: #80d0c7;
+    
+}
+.frequently {
+  display: flex;
+  padding: 100px;
+}
+.frequently img{
+    width: 500px;
+    height: 500px;
+}
+.touch{
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    background-color: rgb(180, 203, 221);
+}
+.bas1{
+    display: flex;
+    flex-direction: row;
+}
+.bas p{
+    color: #13547a;
+}
+.bas h4{
+    color: aquamarine;
 }
