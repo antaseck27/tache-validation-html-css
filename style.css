@@ -270,6 +270,14 @@ i{
 .group3 .tof3{
     width: 400px;
     height: 300px;
+    background-image: url("image/tof1.jpeg");
+    background-size: cover;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
    
 }
 .group3 .tof3 img{
@@ -278,11 +286,19 @@ i{
     border-radius: 30PX;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
+  
 }
 
 .group3 .tof4{
     width: 400px;
     height: 300px;
+    background-image: url("image/tof3.jpeg");
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 30PX;
+    display: flex;
+    justify-content: space-around;
 
 
 }
@@ -295,12 +311,20 @@ i{
 .group3 .tof5{
     width: 400px;
     height: 300px;
+    background-image: url("image/tof4.jpeg");
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 30PX;
+    display: flex;
+    justify-content: space-between;
 
 }
 .group3 .tof5 img{
      width: 100%;
     height: 100%; 
     border-radius: 30PX;
+  
 }
 
 .group3 img{
@@ -309,15 +333,30 @@ i{
     margin: 50px auto;
     background-color: #f8f9fa;
 }
+.group3 p{
+    font-size: 20px;
+    color: gray;
+    text-align: justify;
+    padding: 10px;
+}
+.group3 #chiffre{
+    width: 50px;
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(12, 167, 214);
+    border-radius: 5px;
+}
 /* ---------------------------------------------------------------------------HOW IT WORK----------------------------------------------------------------- */
 .how{
-    background-image: url(image/tof2.jpeg);
-    background-color: rgba(255, 0, 0, 0.4);
-    background-color: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);;
-    height: 800px;
-    padding: 100px;
+    background-image: url(image/tof-www.avif);
+    background-size: cover;
+    background: linear-gradient(15deg, #5b87a0 0%, #9eddd6 100%);;
+    height: 1000px;
+    padding: 150px;
     color: white;
     margin: auto;
+
    
 }
 .how h4{
@@ -335,27 +374,115 @@ i{
     flex-direction: column;
     gap: 80px;
 }
-.but button:nth-child(2){
+.but button:{
     width: 200px;
     height: 40px;
     border-radius: 50px;
     color: white;
     color: #80d0c7;
     border: #80d0c7;
+   
+}
+.but{
+    position: relative;
+    top: 90px;
     
+}
+.timeline{
+    margin: 10px auto;
+    border-left: px solid #0b193a;
+    padding: 0 20 0 30px;
+   
+}
+
+.dive{
+     background-color: transparent;
+     /* padding: 10px 25px; */
+     font-size: 16px;
+     /* border: 1px solid #ccc; */
+     line-height: 1.7;
+     position: relative;
+     height: 110px;
+     margin-bottom: 20px;
+     line-height: 1.7;
+}
+.dive::before{
+    /* content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0b193a;
+    border: 3PX solid #ddd;
+    position: absolute;
+    top: 10px;
+    left: -17px; */
+}
+.div::after{
+    /* content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ddd transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px; */
+
+}
+.dive h3{
+    margin: 0;
+    font-family: poppins;
+}
+.dive h3{
+    margin: 0;
+    font-family: merienda;
+    text-transform: uppercase;
+}
+
+
+#cercle{
+  position: relative;
+  right: 40px;
+  top: 25px;
+}
+div.rond{
+
+   
+    /* width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3PX solid #ddd; */
+   
 }
 
 /* -----------------------------------------------------------------------FAQS------------------------------------------------------------------ */
+.container3 h1{
+    font-size: 50px;
+   
+}
+.container3{
+    padding: 50px;
+}
+
 .frequently {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 50px;
   padding: 10px;
-  background-color: #13547a;
+ 
 }
 .frequently img{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+   
+}
+.topic{
+    /* width: 500px; */
+    padding: 100px;
+    position: relative;
+    top: 100px;
    
 }
 .accordion{
@@ -368,7 +495,7 @@ i{
     margin-bottom: 10px;
     background: #fff;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 #accordion li label{
     padding: 10px;
@@ -379,6 +506,11 @@ i{
     font-weight: 500;
     cursor: pointer;
     color: black;
+}
+#accordion li label:hover{
+    background-color: #c1dfed;
+    border-radius: 40px;
+   
 }
 #accordion li label span{
     transform: rotate(90deg);
@@ -392,14 +524,14 @@ i{
 
   #accordion .content{
     padding: 0 10px;
-    line-height: 26px;
+    line-height: 16px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s;
 }  
 
 #accordion label + input[type="radio"]:checked + .content{
-    max-height: 400px;
+    max-height: 300px;
 } 
 
 
@@ -407,6 +539,7 @@ i{
 .touch{
     display: flex;
    justify-content: space-between;
+   
 }
 .touch p{
     font-size: 20px;
@@ -422,6 +555,7 @@ i{
 .contact{
     background-color: rgba(209, 224, 235, 0.768);
     padding: 50px;
+   
 }
 .contact h1{
     text-align: center;
@@ -433,6 +567,8 @@ i{
   justify-content: space-around;
   gap: 10px;
   padding: 20px;
+  border-bottom-right-radius: 100px;
+  background-color: #e9efee;
    
 }
 .bas1 h5{
