@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--  -->
     <title>Document</title>
 </head>
@@ -27,12 +29,19 @@
                 <li><a href="#how it works">HOW IT WORKS</a></li>
                 <li><a href="#faqs">FAQS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
+
+                <select name="choix" id="choix">
+                    <option value="">Page</option>
+                    <option value="">TOPICS LISTING</option>
+                    <option value="">CONTACT FORM</option>
+                </select>  
                 
-                 <label for="choix">PAGE</label>
-                <select name="" id="">
-                <option value="">TOPICS LISTING</option>
-                <option value="">CONTACT FORM</option>
-                </select> 
+                <!-- <label for="choix">PAGE</label>
+                <select name="card" id="card">
+                <option value="" disabled>Options</option>
+                <option value="" disabled>TOPICS LISTING</option>
+                <option value="" disabled>CONTACT FORM</option>
+                </select>  -->
                 
             </ul>
         </div>
@@ -59,13 +68,10 @@
         <div class="box">
             <div class="searche-box">
                 <input type="text" placeholder="Discover, Code, Marketing, Finance......">
-                
-                
                 <label for="" class="icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </label>
                 </div>
-
                 <div class="button1">
                 <button>Search</button>
             </div>
@@ -74,21 +80,16 @@
         </section>
 
         <section class="container2">
-            <div class="group1">
+             <div class="group1">
               <div class="sougroup1">
-                <div>
+                 <div>
                 <h3>Web Design</h3>
                 <p>When you search for free CSS templates, you will notice that TemplateMo is one of the best websites. </p>
                 </div>
                 <div>
                     <h6>14</h6>
-                </div>
+                </div> 
             </div>  
-                <!-- <div class="tof1">
-                <div class="img1">
-                        <img src="image/tof1.jpeg" alt="">
-                    </div>
-                </div> -->
                 <div class="sougroup2">
                     <div class="finance">
                     <div>
@@ -115,13 +116,7 @@
                 </div>
                 </div> 
                 </div> 
-                   
-
-                <!-- <div class="tof2">
-                    <div class="img2">
-                       <img src="image/tof2.jpeg" alt="">
-                    </div> -->
-                </div> 
+            </div>  
 
             </div>
 
@@ -150,39 +145,60 @@
             <div class="group3">
                 
                 <div class="tof3">
-                    <div>
-                   <h4>Web Design</h4>
-                   <P>Web Design
-                    Topic Listing Template based on Bootstrap 5
-                    </P>
+                    <div class="card">
+                        <div class="card1"> 
+                            <h4>Web Design</h4>
+                            <p>14</p>
+                        </div>
+                        <div class="pp">  
+                            <p>Web Design Topic Listing Template based on Bootstrap</p>
+                        </div>     
                     </div>
                 
-                <div id="chiffre">14</div>
-            </div>
-            
-                <div class="tof4">
-                        <div>
-                           <h4>Web Design</h4>
-                           <P>Web Design
-                            Topic Listing Template based on Bootstrap 5
-                            </P>
-                        </div>    
-                    
-                        <div id="chiffre">75</div>
-                </div>
-                <div class="tof5">
-                    <div>
-                           <h4>Web Design</h4>
-                           <P>Web Design
-                            Topic Listing Template based on Bootstrap 5
-                            </P>
-                    </div>        
-                        <div id="chiffre">100</div>
-                        
-                </div>
-            </div>
-        
+                    <div class="photo1">
+                        <img src="image/tof1.jpeg" alt="">
 
+                    </div>  
+
+                </div>
+
+                <div class="tof3">
+                    <div class="card">
+                        <div class="card1"> 
+                            <h4>Web Design</h4>
+                            <p>14</p>
+                        </div>
+                        <div class="pp">  
+                            <p>Web Design Topic Listing Template based on Bootstrap</p>
+                        </div>     
+                    </div>
+                
+                    <div class="photo1">
+                        <img src="image/tof3.jpeg" alt="">
+
+                    </div>  
+
+                </div>
+
+
+                <div class="tof3">
+                    <div class="card">
+                        <div class="card1"> 
+                            <h4>Web Design</h4>
+                            <p>14</p>
+                        </div>
+                        <div class="pp">  
+                            <p>Web Design Topic Listing Template based on Bootstrap</p>
+                        </div>     
+                    </div>
+                
+                    <div class="photo1">
+                        <img src="image/tof.jpeg" alt="">
+
+                    </div>  
+
+                </div>
+            </div>
         </section>
     <!--------------------------------------------------------------------------------- FIN BROWSER --------------------------------------------------------------------------------->
 
@@ -192,37 +208,54 @@
             
             <div class="container" id="how it works">
                 <h1>How does it work?</h1> 
-                <div class="timeline">  
-                <div class="dive">
-                    <div class="rond">
-                    <i class="fa-solid fa-magnifying-glass" id="cercle"></i>
-                    <h4>Search your favourite topic </h4>
-                    <p>orem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, <br> cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas,<br> accusamus omnis?</p>
-                   </div>
+            <div class="timeline"> 
+            <div class="timeline-item">
+                   <div class="dive">
+                     <div class="rond">
+                     <div class="icone">
+                         <i class="fa-solid fa-magnifying-glass" id="cercle"></i>
+                    </div>
+                    </div>
+                    <div class="timeline-content">
+                         <h4>Search your favourite topic </h4><br>
+                          <p>orem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, <br> cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas,<br> accusamus omnis?</p><br><br><br><br><br>
+                    </div>
                 </div>
                 <div class="dive">
+
                     <div class="rond">
-                        
-                    <i class="fa-regular fa-bookmark" id="cercle"></i>
-                    <h4>Bookmark & Keep it for yourself</h4>
-                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam <br> repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. <br>  Doloremque, repudiandae?</P>
-                    </div>
+                       <div class="icone">
+                          <i class="fa-regular fa-bookmark" id="cercle"></i>
+                       </div>
+                   </div>
+                    <div>
+                       <h4>Bookmark & Keep it for yourself</h4><br>
+                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam <br> repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. <br>  Doloremque, repudiandae?</P><br><br><br><br><br>
+                       </div>
                 </div>
                 
+                
                 <div class="dive">
-                    <div class="rond">
-                       
-                    <i class="fa-regular fa-book-open" id="cercle"></i>
-                    <h4>Read & Enjoy</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda <br> similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa <br> deleniti officiis autem?</p>
+                      <div class="rond">
+                         <div class="icone">
+                           <i class="fa-solid fa-book-open" id="cercle"></i>
+                         </div>
+                     </div>
+                       <div>
+                          <h4>Read & Enjoy</h4><br>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda <br> similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa <br> deleniti officiis autem?</p><br><br><br><br><br>
+                       </div>
+               
                     </div>
-                </div>
+            </div>        
+            </div> 
+            </div>
             </div>     
             </div>
           
             <div class="but">
-                <button>Want to learn more? </button>
-                <button>Check out Youtub</button>
+                    <h2>Want to learn more? </h2>
+                     <button>Check out Youtub</button>
             </div>
         </section>
 <!---------------------------------------------------------------------------------FIN HOW IT WORK--------------------------------------------------------------------------------->
@@ -317,10 +350,9 @@
                     <p>info@company.com</p>
                 </div>
                 <div>
-                    <label for="choix">Choisissez une option :</label>
-                    <label for="choix">English</label>
+                
                     <select name="choix" id="choix">
-                        <option value="">Thai</option>
+                        <option value="">ENGLISH</option>
                         <option value="">Thai</option>
                         <option value="">Myanmar</option>
                         <option value="">Arabic</option>
@@ -329,7 +361,14 @@
                     <p>Design: TemplateMo</p>
                 </div>
             </div>
+            <div class="iconee">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
         </section>
+
 
 
 <!---------------------------------------------------------------------------------FIN CONTACT--------------------------------------------------------------------------------->

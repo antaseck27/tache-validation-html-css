@@ -3,8 +3,9 @@
 
     }
     nav{
-        /* display: flex;
-        flex-direction: column; */
+        display: flex;
+        /* flex-direction: column; 
+        justify-content: center; */
         padding: 10px;
         width: 44vh;
         z-index: auto;
@@ -12,16 +13,26 @@
     nav ul{
         display: none;
     }
+    .home h1{
+       text-align: center;
+    }
     .hero{
         width: 100%;
        display: flex;
-       justify-content: center;
-       align-items: center;
+      flex-direction: column;
+      justify-content: center;
         padding: 0px;
     
     }
+    .hero{
+        width: 100%;
+        height: 60vh;
+        background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+        padding: 100px;
+    
+    }
     .hero h1{
-        font-size: 50px;
+        font-size: 30px;
         color: white;
     
     }
@@ -30,9 +41,67 @@
         color: #13547a;
     }
 
+    .box{
+   
+        width: 100%;
+        max-width: 400px;
+        margin-top: 40px;
+       
+    }
+    .box .searche-box{
+        position: relative;
+        left: -55px;
+        margin: auto;
+        height: 40px;
+        max-width: 380px;
+       
+       
+    }
+    .searche-box input{
+        position: absolute;
+        height: 170%;
+        width: 150%;
+        border-radius: 50px;
+        margin: auto;
+        background-color: white;
+        outline: none;
+        border: none;
+      
+    }
+    .button1 button{
+        position: relative;
+        left: 10vh;
+        bottom: 26px;
+        padding: 10px;
+    }
+
     .group1{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 80px;
+        
+    }
+    .sougroup1 {
+        width: 380px;
+        height: 500px;
+        border-radius: 30px;
+    }
+    .sougroup2{
+        width: 380px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .container2{
+        height: 800px;
+    }
+    .sharee{
+        display: flex;
+       justify-content: center;
+       gap:     1px;
+    
     }
     .group1 .img1 .img2{
         width: 400px;
@@ -45,4 +114,36 @@
         justify-content: center;
         gap: 20px;
     }
+    .centerx{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .link1{
+        padding: 20px;
+    }
+    .group3 .tof3{
+        width: 400px;
+        height: 400px;
+    }
+    .group3 .tof4{
+        width: 400px;
+        height: 400px;
+
+    }
+    .group3 .tof5{
+        width: 400px;
+        height: 400px;
+
+    }
+    .group3{
+        background-color: rgba(239, 233, 233, 0.989);
+    }
+    .frequently{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    
 }
