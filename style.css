@@ -630,6 +630,11 @@ button {
     font-size: 50px;
     padding: 70px;
 }
+.bass{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
 .bas1{
   display: flex;
   justify-content: space-around;
